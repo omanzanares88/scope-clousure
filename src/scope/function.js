@@ -1,7 +1,7 @@
 // variable local
 
 function greeting() {
-    let userName = 'Ana';
+    let userName = 'Ana'; //variable interna
     console.log(userName);
 
 if (userName === 'Ana') {
@@ -10,4 +10,6 @@ if (userName === 'Ana') {
 
 }
 
-greeting();
+greeting(); //llama a la funsion
+
+console.log(userName); //error no puede acceder a la variable local
