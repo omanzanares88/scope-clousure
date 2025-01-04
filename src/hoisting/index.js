@@ -12,3 +12,6 @@ function nameOfDog2() {
 }
 
 var elmo = 'Elmito';
+
+
+nameOfDog("Elmo"); function nameOfDog(name) { console.log(name); };
